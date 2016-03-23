@@ -1,11 +1,9 @@
-import java.io.FileNotFoundException;
-
 public class ExceptionExample {
 
   public static void main(String[] args) {
-//    example1();
-//    example2();
-//    example3();
+    example1();
+    example2();
+    example3();
     try {
       example4();
     } catch (MyException e) {
